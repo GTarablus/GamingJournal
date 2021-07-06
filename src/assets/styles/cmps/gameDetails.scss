@@ -1,0 +1,14 @@
+.main-details-container {
+  .game-title {
+    font-size: 35px;
+    padding-bottom: 5px;
+  }
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  text-align: start;
+  .game-screenshots-container {
+    width: 50%;
+  }
+}

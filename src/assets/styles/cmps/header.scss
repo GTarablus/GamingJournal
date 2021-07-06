@@ -1,0 +1,30 @@
+.header-container {
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  color: white;
+  background-color: $clr1;
+  margin-bottom: 5px;
+  a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .nav-links {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    a {
+      text-decoration: none;
+      color: white;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
