@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage":"https://gtarablus.github.io/<GamingJournal>",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "dependencies": {
     "@nivo/core": "^0.72.0",
     "@nivo/line": "^0.72.0",
@@ -34,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
