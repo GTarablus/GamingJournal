@@ -1,12 +1,13 @@
 const initialState = {
   games: [],
   game: null,
-  filterBy: {
-    type: '',
-    location: '',
-    date: '',
-    time: '',
-  },
+  // filterBy: {
+  //   type: '',
+  //   location: '',
+  //   date: '',
+  //   time: '',
+  // },
+  search: null,
   screenshots: [],
 };
 
@@ -20,6 +21,8 @@ export function gameReducer(state = initialState, action = {}) {
       return { ...state, game: action.game };
     case 'SET_FILTER':
       return { ...state, filterBy: action.filterData };
+    case 'SET_SEARCH':
+      return { ...state, search: action.results };
     case 'SET_SCREENSHOTS':
       return { ...state, screenshots: action.screenshots };
     // case 'ADD_GAME':

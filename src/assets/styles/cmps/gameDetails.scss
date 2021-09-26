@@ -3,12 +3,47 @@
     font-size: 35px;
     padding-bottom: 5px;
   }
+  .graph-container {
+    height: 300px;
+  }
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   height: 100%;
   text-align: start;
-  .game-screenshots-container {
-    width: 50%;
+  .game-images-bullets-container {
+    display: flex;
+    justify-content: space-between;
+    .game-screenshots-container {
+      width: 60%;
+      border-radius: 5px;
+    }
+    .game-bullets {
+      min-width: 25%;
+      border: solid black;
+      border-radius: 5px;
+      padding: 3px;
+      .game-actions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .game-bullet-details {
+        font-size: 16px;
+      }
+    }
+  }
+  .game-description {
+    margin-top: 5px;
+    border: solid black;
+    border-radius: 5px;
+    height: 200px;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .expanded {
+    height: auto;
+    white-space: wrap;
   }
 }

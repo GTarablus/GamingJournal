@@ -1,5 +1,14 @@
 import { NavLink } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { setSearch } from '../store/actions/gameActions';
 export const Header = () => {
+  const dispatch = useDispatch();
+  // const searchResults = useSelector((state) => state.gameModule.search);
+  // const onSetSearch = (query) => {
+  //   // console.log(query.query);
+  //   if (query.query === '') return;
+  //   dispatch(setSearch(query));
+  // };
   return (
     <div className="header-container">
       <NavLink to="/">

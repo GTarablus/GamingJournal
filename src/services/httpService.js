@@ -1,7 +1,7 @@
 import Axios from 'axios';
 
 const BASE_URL = 'https://api.rawg.io/api/';
-const API_KEY = 'e91b2bc088c24679bef700c99473b76d';
+// const API_KEY = 'e91b2bc088c24679bef700c99473b76d';
 
 var axios = Axios.create({});
 
@@ -21,9 +21,10 @@ export const httpService = {
 };
 
 async function ajax(endpoint, method = 'get', data = null) {
+  // console.log('url:', `${BASE_URL}${endpoint}`);
   try {
     const res = await axios({
-      url: `${BASE_URL}${endpoint}?key=${API_KEY}`,
+      url: `${BASE_URL}${endpoint}`,
       method,
       data,
       params: method === 'GET' ? data : null,

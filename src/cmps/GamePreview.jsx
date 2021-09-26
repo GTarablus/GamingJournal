@@ -7,7 +7,7 @@ export const GamePreview = (props) => {
     <div className="game-preview">
       <Link to={`/games/${game.id}`}>
         <img src={game.background_image} alt="" />
-        <h3 className="game-title">{game.name}</h3>
+        <h3 className="game-preview-title">{game.name}</h3>
       </Link>
     </div>
   );

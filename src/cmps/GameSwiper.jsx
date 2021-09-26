@@ -8,7 +8,6 @@ import ImageGallery from 'react-image-gallery';
 
 export const GameSwiper = (props) => {
   const gameImgs = props.gameImgs;
-  console.log(props.gameImgs);
   return (
     <div className="game-screenshots-container">
       <ImageGallery items={gameImgs} />

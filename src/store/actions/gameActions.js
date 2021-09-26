@@ -12,6 +12,18 @@ export function loadGames() {
   };
 }
 
+export function setSearch(data) {
+  const query = data.query;
+  return async (dispatch) => {
+    try {
+      const searchResults = await gameService.getSearchResults(query);
+      dispatch({ type: 'SET_SEARCH', results: searchResults.results });
+    } catch (err) {
+      console.log('GameActions: err in setSearch', err);
+    }
+  };
+}
+
 export function getGameByID(gameId) {
   return async (dispatch) => {
     try {

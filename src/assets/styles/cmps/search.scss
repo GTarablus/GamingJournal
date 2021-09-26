@@ -1,0 +1,13 @@
+.search-box-container {
+  .search-results {
+    position: absolute;
+    color: black;
+    border: solid black;
+    background-color: white;
+    max-height: 200px;
+    overflow: auto;
+    .search-result-link {
+      color: black;
+    }
+  }
+}
