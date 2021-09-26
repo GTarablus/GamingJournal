@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/GamingJournal/static/css/main.b69e5ce9.chunk.css",
+    "main.js": "/GamingJournal/static/js/main.9b18acfa.chunk.js",
+    "main.js.map": "/GamingJournal/static/js/main.9b18acfa.chunk.js.map",
+    "runtime-main.js": "/GamingJournal/static/js/runtime-main.e8e676da.js",
+    "runtime-main.js.map": "/GamingJournal/static/js/runtime-main.e8e676da.js.map",
+    "static/css/2.0540911f.chunk.css": "/GamingJournal/static/css/2.0540911f.chunk.css",
+    "static/js/2.019febff.chunk.js": "/GamingJournal/static/js/2.019febff.chunk.js",
+    "static/js/2.019febff.chunk.js.map": "/GamingJournal/static/js/2.019febff.chunk.js.map",
+    "static/js/3.9cfd1cff.chunk.js": "/GamingJournal/static/js/3.9cfd1cff.chunk.js",
+    "static/js/3.9cfd1cff.chunk.js.map": "/GamingJournal/static/js/3.9cfd1cff.chunk.js.map",
+    "index.html": "/GamingJournal/index.html",
+    "static/css/2.0540911f.chunk.css.map": "/GamingJournal/static/css/2.0540911f.chunk.css.map",
+    "static/css/main.b69e5ce9.chunk.css.map": "/GamingJournal/static/css/main.b69e5ce9.chunk.css.map",
+    "static/js/2.019febff.chunk.js.LICENSE.txt": "/GamingJournal/static/js/2.019febff.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/GamingJournal/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8e676da.js",
+    "static/css/2.0540911f.chunk.css",
+    "static/js/2.019febff.chunk.js",
+    "static/css/main.b69e5ce9.chunk.css",
+    "static/js/main.9b18acfa.chunk.js"
+  ]
+}
